@@ -4,7 +4,7 @@ https://spec.open-rpc.org/#introduction
 
 import dataclasses
 from collections.abc import Mapping
-from typing import NewType, Literal, Any
+from typing import NewType, Literal, Any, Self
 
 SimVer = NewType('SimVer', str)
 Url = NewType('Url', str)
